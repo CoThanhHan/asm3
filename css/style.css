@@ -1,0 +1,272 @@
+* {
+    /* margin: 0px; */
+    box-sizing: border-box;
+}
+body
+{
+    line-height: 1.5;
+    color: #1d3557;
+}
+.bg-grey {
+    background: #f7f7f7;
+}
+
+section > .container{
+    width: 1170px;
+    margin: auto;
+    display: block;
+    padding: 30px 50px;
+}
+
+#nav-bar {
+    text-align: center;
+}
+/* Banner */
+.img-banner
+{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    filter:brightness(50%);
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
+}
+
+.text
+{
+    position: absolute;
+    top:50%;
+    left:40%;
+    color: #f7f7f7;
+    font-size: 16px;
+    text-align: center;
+}
+.text h1
+{
+    text-transform: uppercase;
+}
+.text span
+{
+    color: #c5c2c2;
+}
+/* Nav-bar */
+#nav-bar a:link,a:visited
+{
+    text-decoration: none;
+    color: #1d3557;
+    text-transform: uppercase;
+    border-left: 2px solid grey;
+    padding: 60px 20px 32px;
+    /* border-right:2px solid grey; */
+}
+.text-1
+{
+    display: inline-block;
+    margin: 10px 70px 0;
+}
+.text-1 h1
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+.text-1 span
+{
+    color: #c5c2c2; 
+}
+.icon
+{
+    color:rgb(77, 132, 220);
+    font-weight:bold;
+}
+
+.thong-tin
+{
+    /* grid-template-columns: repeat(2,1fr); */
+    display:grid; 
+    justify-items: center;
+    /* align-items: center; */
+    /* gap:40px; */
+    /* line-height: 2;  */
+}
+.section-title
+{
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+li span 
+{
+    font-weight: bold;
+}
+.mt-40
+{
+    margin-bottom: 20px;
+}
+#target
+{
+    /* padding:40px 30px; */
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+#personal-info
+{
+    background-color: rgb(245, 246, 247);
+    padding: 40px 30px;
+}
+/* thong tin nghe nghiep */
+.job-grid
+{
+    display: grid !important;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 40px;
+    row-gap: 20px;
+}
+.job-box-grid
+{
+    display:grid;
+    grid-template-columns: 75% 25%;
+    column-gap: 20px;
+    row-gap: 25px;
+    border:1px solid rgb(112, 110, 110);
+    align-items: center;
+    padding: 24px;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);  
+}
+.job-content
+{
+    grid-column: 1/-1;
+    margin:15px;
+}
+.now
+{
+    background-color: rgb(87, 129, 227);
+    padding:4px 8px;
+    color: #f7f7f7;
+    border-radius: 10px;
+}
+.list
+{
+    position: relative;
+}
+.list1
+{
+    position: relative;
+}
+.job-node::before
+{
+    content:"•";
+    color:rgb(145, 186, 255);
+    font-weight: bolder;
+    display:inline-block;
+    font-size:18px;
+    position: absolute;
+    left:-30px;
+    top:0px;
+}
+/* so-thich */
+#hobby
+{
+    width: 50px;
+    height:50px;
+    font-size: 27px;
+    border: 2px solid #0abde0;
+    border-radius: 50%;
+    padding:10px;
+    margin-left: 10px;
+    color:#0abde0;
+}
+.Good
+{
+    background-color: #0abde3;
+    display:inline-block;
+    height: 2px;
+    width: 40px;
+}
+.Bad
+{
+    background-color: #cfcfcf;
+    height: 2px;
+    width: 40px;
+    display:inline-block;
+}
+/* chung chi */
+.cer-grid
+{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 50px;
+    row-gap: 50px;
+}
+.img-cc
+{
+    width: 250px;
+    margin-right: 10px;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
+}
+.cer-content
+{
+    display:flex;
+    gap:20px;
+}
+.cer-content-2
+{
+    padding-left: 20px;
+    border-left: 2px solid#d6c08d;
+}
+.cer-content-3
+{
+    grid-column: 1/-1;
+    padding-top: 20px;
+    border-top: 2px solid #d6c08d ;
+}
+/* du an */
+.project-grid
+{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 40px;
+}
+.project-flex
+{
+    display:flex;
+    flex-direction: column;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);  
+}
+.project-title
+{
+    padding:20px;
+    font-weight: bold;
+    font-size:18px;
+    border-left: 1px solid #bdc3c7;
+    border-right: 1px solid #bdc3c7;
+}
+.project-border
+{
+    border-left: 1px solid #bdc3c7;
+    border-right: 1px solid #bdc3c7;
+    border-top: 1px solid #bdc3c7;
+    padding: 10px;
+}
+td
+{
+    padding:10px;
+}
+tr td:first-child
+{
+    width: 100%;
+    vertical-align: top;
+    font-weight:bold;
+}
+tr
+{
+    border:1px solid #bdc3c7;
+}
+table
+{
+    border-collapse: collapse  ;
+}
+#footer
+{
+    line-height: 1.5;
+    text-align: center;
+    background-color: rgba(205, 202, 202, 0.778);
+}
